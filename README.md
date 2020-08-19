@@ -359,7 +359,7 @@ To display slider full width, just add  class `slider--full-with`, by extending 
 
 ## Alpaca Content - Set up your store, admin / db changes for alpaca theme
 
-### Menu - to display menu use [Snowog's magento2-menu](https://github.com/SnowdogApps/magento2-menu) module
+### Menu - to display menu use [Snowdog's magento2-menu](https://github.com/SnowdogApps/magento2-menu) module
 1. Desktop menu:
   * identifier: main-desktop
   * Menu Main CSS Class: mega-menu

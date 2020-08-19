@@ -2,20 +2,24 @@
 All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
+
 ### Added
+- paypal review component (#59142)
 - color property with variable for easier override of select2 styles (#67443)
 - full with variant styles to slider (#69023)
 - EE - gift registry (#65717), Affects: all gift registry pages ('/giftregistry/*'), datepicker styles
-- paypal review component (#59142)
-
-### Fixed
-- Amasty Store Locator template for module version 2.4.2 (#69148)
 
 ### Changed
 - paypal review order page (#59142)
 - contact-bar template to show/hide email/phone depending on config settings (#69969)
+- checkboxes globally aligned vertically center (#68654)
 - zoomed in image background opacity & close button to dark (#69145)
 - basic variable with component variable for easier updates of mega menu (#69969)
+
+### Fixed
+- gdpr agreements templates after update (#68654)
+- wrong name for review input field (#70089)
+- Amasty Store Locator template for module version 2.4.2 (#69148)
 
 ## [Released]
 ## [2.6.0] - 2020-08-06
