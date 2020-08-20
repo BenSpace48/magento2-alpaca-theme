@@ -9,7 +9,6 @@ All notable changes to this project will be documented in this file.
 - color property with variable for easier override of select2 styles (#67443)
 - full with variant styles to slider (#69023)
 - EE - gift registry (#65717), Affects: all gift registry pages ('/giftregistry/*'), datepicker styles
-
 ### Changed
 - paypal review order page (#59142)
 - contact-bar template to show/hide email/phone depending on config settings (#69969)
