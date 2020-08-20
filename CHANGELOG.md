@@ -15,6 +15,7 @@ All notable changes to this project will be documented in this file.
 - checkboxes to be globally aligned vertically to center (#68654)
 - zoomed in image background opacity & close button to dark (#69145)
 - basic variable with component variable for easier updates of mega menu (#69969)
+- store locator active store color (#69151)
 
 ### Fixed
 - gdpr agreements templates after update (#68654)
