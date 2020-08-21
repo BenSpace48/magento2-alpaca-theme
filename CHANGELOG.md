@@ -13,6 +13,7 @@ All notable changes to this project will be documented in this file.
 - amasty gdpr elements and pages (newsletter, agreements, ettings, etc.) can limit html output there (#67311)
 ### Changed
 - paypal review order page (#59142)
+- paypal express button, Affects: product page, cart page, checkout payment step (#69885)
 - contact-bar template to show/hide email/phone depending on config settings (#69969)
 - checkboxes to be globally aligned vertically to center (#68654)
 - zoomed in image background opacity & close button to dark (#69145)
