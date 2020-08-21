@@ -34,6 +34,7 @@ All notable changes to this project will be documented in this file.
 ### Changed
 - paypal review order page (#59142)
 - typo in newsletter (#67925)
+- preventing images from jumping on load (#69133)
 
 ### Changed
 - loader to sth "standard" (#68653)
