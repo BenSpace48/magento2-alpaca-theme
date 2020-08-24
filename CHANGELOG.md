@@ -2,7 +2,8 @@
 All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
-
+### Fixed
+- jumpung gallery while loading (#70217)
 ### Added
 - paypal review component (#59142)
 - curreny and language switchers in footer (#67313)
