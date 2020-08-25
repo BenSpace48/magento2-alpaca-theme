@@ -20,6 +20,8 @@ All notable changes to this project will be documented in this file.
 - zoomed in image background opacity & close button to dark (#69145)
 - basic variable with component variable for easier updates of mega menu (#69969)
 - store locator active store color (#69151)
+- styles and validation for datepicker (#67654), Affects: structure of files (datepicker customization)
+- escaping php variables in templates, Affects: amasty gdpr elements and pages (newsletter, agreements, ettings, etc.) - can limit html output there (#67311)
 
 ### Fixed
 - gdpr agreements templates after update (#68654)
@@ -30,7 +32,7 @@ All notable changes to this project will be documented in this file.
 ## [2.6.0] - 2020-08-06
 ### Added
 - pointer cursor for zoom in icon (#69031)
-- paypal review component (#59142)
+
 ### Fixed
 - modal close icon overlay on text (#69152)
 - sasslint warnings (#64998)
