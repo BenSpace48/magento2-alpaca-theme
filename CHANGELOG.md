@@ -17,6 +17,7 @@ All notable changes to this project will be documented in this file.
 - link href in reward/customer/info/ (#68780)
 - thicker table bottom border (#68780)
 - order-summary background color in checkout sidebar (#68780)
+- missing actions group on Account Information page
 ### Added
 - margin to storelocator button on PDP (#68780)
 - product count to product compare page (#68780)
