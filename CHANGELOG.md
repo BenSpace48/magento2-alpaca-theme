@@ -69,7 +69,7 @@ All notable changes to this project will be documented in this file.
 - EE - gift registry (#65717), Affects: all gift registry pages ('/giftregistry/*'), datepicker styles
 - Component and styling for multishipping (#66917)
 - color property with variable for easier override of select2 styles (#67443)
-
+- adjust sliders loading time + add slider widget template (#65842)
 ### Changed
 - paypal review order page (#59142)
 - paypal express button, Affects: product page, cart page, checkout payment step (#69885)
