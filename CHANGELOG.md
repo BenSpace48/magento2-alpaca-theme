@@ -24,6 +24,7 @@ All notable changes to this project will be documented in this file.
 - wishlist item actions covering active textarea border (#68745)
 - js error on bundle PDP - removed escaping method from bundle options template (#68745)
 - account - stored payment methods table (#70628)
+- input and select styles in poduct gift card template (#70690)
 ### Added
 - margin to storelocator button on PDP (#68780)
 - product count to product compare page (#68780)
