@@ -40,6 +40,7 @@ All notable changes to this project will be documented in this file.
 - content-block__link margin (#68780)
 - show phone input tooltip in checkout shipping address modal (#68780)
 - sidebar 'Compare' link classes (#68745)
+- recaptcha badge position on mobile PDP (#70725); Affects: PDP
 ### Removed
 - unnecessary header-button margin styles (#68780)
 
