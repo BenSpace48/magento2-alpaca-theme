@@ -18,24 +18,17 @@ All notable changes to this project will be documented in this file.
 - thicker table bottom border (#68780)
 - order-summary background color in checkout sidebar (#68780)
 - missing actions group on Account Information page
-- spaces bewteen buttons uneven on EE product list (#68745)
-- typo in shipping address config (#68745)
-- item checkbox in requisition list (#68745)
-- wishlist item actions covering active textarea border (#68745)
-- js error on bundle PDP - removed escaping method from bundle options template (#68745)
 - account - stored payment methods table (#70628)
 - input and select styles in poduct gift card template (#70690)
 - fixed problems when cms blocks saved with Page Builder (#69990)
+- input and select styles in poduct gift card template (#70690); Affects: gift card PDP
 - review snippets (#69786)
 ### Added
 - margin to storelocator button on PDP (#68780)
 - product count to product compare page (#68780)
 - swatch option selected styles (#68780)
-- customer balance history template (#68745)
-- grouped product final price template (#68745)
-- missing dashboard-table__link class to account dashboard templates (#68745)
+- minimum advertised price on grid and product page (#70656); Info: @import '../Magento_Msrp/styles/module'; should be added to /styles/theme.scss
 ### Changed
-- basic variable with component variable for easier updates of mega menu (#69969)
 - header wishlist & minicart buttons margins on mobile (#68780)
 - dashboard-table__header direction & alignment on mobile (#68780)
 - no-results_link width (#68780)
@@ -46,14 +39,29 @@ All notable changes to this project will be documented in this file.
 - checkout email templates (adjusted classes) (#68780)
 - content-block__link margin (#68780)
 - show phone input tooltip in checkout shipping address modal (#68780)
-
 - sidebar 'Compare' link classes (#68745)
-- bundle product price template and styling (#68745)
-- make compare__product div take up 100% height of td & space items between (#68745)
 ### Removed
 - unnecessary header-button margin styles (#68780)
 
 ## [Released]
+
+## [2.8.0] - 2020-09-15
+### Fixed
+- missing actions group on Account Information page; Affects: dashboard account information page
+- spaces between buttons uneven on EE product list (#68745); Affects: catalog product list
+- typo in shipping address config (#68745)
+- item checkbox in requisition list (#68745); Affects: Requisition list
+- wishlist item actions covering active textarea border (#68745)
+- js error on bundle PDP - removed escaping method from bundle options template (#68745); Affects: Bundle PDP
+### Added
+- customer balance history template (#68745)
+- grouped product final price template (#68745); Affects: Grouped PDP
+- missing dashboard-table__link class to account dashboard templates (#68745); Affects: dashboard
+### Changed
+- basic variable with component variable for easier updates of mega menu (#69969); Affects: mega menu
+- sidebar 'Compare' link classes (#68745): Affects: catalog sidebar
+- bundle product price template and styling (#68745); Affects: Bundle PDP
+- make compare__product div take up 100% height of td & space items between (#68745)
 
 ## [2.7.0] - 2020-08-20
 ### Fixed
