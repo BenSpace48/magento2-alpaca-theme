@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ### Fixed
+- issue with arrows looking wrong if gallery vertical/horizontal nav breakpoints are changed via configuration (#71113); Affects: gallery navigation
 - search input styling on iOS (#68780)
 - slider container before & after gradient on Safari & iOS (#68780)
 - product add to cart sticky covering footer on Safari & iOS (#68780)
