@@ -8,7 +8,7 @@ $customClass = $block->getData('custom-class');
                 <?= $customClass ? $block->escapeHtmlAttr($customClass) : 'container contact-bar__container' ?>
             "
         >
-            <?= $contactBar ?>
+            <?= /* @noEscape */ $contactBar ?>
         </div>
     </div>
 <?php endif; ?>

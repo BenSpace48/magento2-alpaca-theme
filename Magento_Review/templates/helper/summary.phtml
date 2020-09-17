@@ -45,14 +45,14 @@ $urlForm = $block->getReviewsUrl() . '#review-form';
                     <div
                         class="rating__star"
                         role="presentation"
-                        style="width:<?=  $block->escapeHtmlAttr($rating) ?>%"
+                        style="width:<?= $block->escapeHtmlAttr($rating) ?>%"
                     >
                         <span class="rating__indicator"></span>
                     </div>
                 </div>
 
                 <a
-                    href="<?= $url ?>"
+                    href="<?= $block->escapeUrl($url) ?>"
                     class="review__amount"
                     title="<?= $block->escapeHtmlAttr($reviewsCount . __(' reviews')); ?>"
                     data-mage-init='{ "goToReview": { "reviewId": "reviews" } }'
@@ -77,7 +77,7 @@ $urlForm = $block->getReviewsUrl() . '#review-form';
 <?php elseif ($block->getDisplayIfEmpty()): ?>
     <div class="review review--summary empty">
         <a
-            href="<?=  $urlForm; ?>"
+            href="<?= $block->escapeUrl($urlForm); ?>"
             title="<?=  $block->escapeHtmlAttr(__('Be the first to review this product')) ?>"
             data-mage-init='{ "goToReview": { "reviewId": "review-form" } }'
         >
