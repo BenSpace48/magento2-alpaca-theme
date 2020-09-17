@@ -24,6 +24,7 @@ All notable changes to this project will be documented in this file.
 - fixed problems when cms blocks saved with Page Builder (#69990)
 - input and select styles in poduct gift card template (#70690); Affects: gift card PDP
 - review snippets (#69786)
+- amasty gdpr module error on checkout page (#71078)
 ### Added
 - margin to storelocator button on PDP (#68780)
 - product count to product compare page (#68780)
