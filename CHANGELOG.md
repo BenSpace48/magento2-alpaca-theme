@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 
 ### Fixed
 - issue with arrows looking wrong if gallery vertical/horizontal nav breakpoints are changed via configuration (#71113); Affects: gallery navigation
+<<<<<<< HEAD
 - search input styling on iOS (#68780)
 - slider container before & after gradient on Safari & iOS (#68780)
 - product add to cart sticky covering footer on Safari & iOS (#68780)
@@ -22,6 +23,8 @@ All notable changes to this project will be documented in this file.
 - account - stored payment methods table (#70628)
 - input and select styles in poduct gift card template (#70690)
 - fixed problems when cms blocks saved with Page Builder (#69990)
+=======
+>>>>>>> 71113
 - input and select styles in poduct gift card template (#70690); Affects: gift card PDP
 - review snippets (#69786)
 - amasty gdpr module error on checkout page (#71078)
