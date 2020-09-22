@@ -4,49 +4,23 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ### Fixed
-- issue with arrows looking wrong if gallery vertical/horizontal nav breakpoints are changed via configuration (#71113); Affects: gallery navigation
-- search input styling on iOS (#68780)
-- slider container before & after gradient on Safari & iOS (#68780)
-- product add to cart sticky covering footer on Safari & iOS (#68780)
-- images stretching vertically inside links on Safari & iOS (#68780)
-- dropdown list styling in checkout footer (#68780)
-- 'back' link styling in 'my product reviews' (#68780)
-- actions toolabr styling in 'company users' (#68780)
-- order table in account sachboard (#68780)
-- discount & gift card templates from checkout (#68780)
-- giftcard account action-toolbar styles (#68780)
-- link href in reward/customer/info/ (#68780)
-- thicker table bottom border (#68780)
-- order-summary background color in checkout sidebar (#68780)
-- missing actions group on Account Information page
-- account - stored payment methods table (#70628)
-- input and select styles in poduct gift card template (#70690)
-- fixed problems when cms blocks saved with Page Builder (#69990)
+### Added
+- adjust sliders loading time + add slider widget template (#65842)
+### Changed
+### Removed
+
+## [Released]
+
+## [2.9.0] - 2020-09-21
+### Fixed
 - input and select styles in poduct gift card template (#70690); Affects: gift card PDP
 - review snippets (#69786)
 - amasty gdpr module error on checkout page (#71078)
+- account - stored payment methods table (#70628)
 ### Added
-- margin to storelocator button on PDP (#68780)
-- product count to product compare page (#68780)
-- swatch option selected styles (#68780)
 - minimum advertised price on grid and product page (#70656); Info: @import '../Magento_Msrp/styles/module'; should be added to /styles/theme.scss
 ### Changed
-- header wishlist & minicart buttons margins on mobile (#68780)
-- dashboard-table__header direction & alignment on mobile (#68780)
-- no-results_link width (#68780)
-- contact us button & description styles (#68780)
-- shipping method options paddings & radio margin (#68780)
-- discount-code__content paddings in checkout & cart (#68780)
-- discount-code__input margin (#68780)
-- checkout email templates (adjusted classes) (#68780)
-- content-block__link margin (#68780)
-- show phone input tooltip in checkout shipping address modal (#68780)
-- sidebar 'Compare' link classes (#68745)
 - recaptcha badge position on mobile PDP (#70725); Affects: PDP
-### Removed
-- unnecessary header-button margin styles (#68780)
-
-## [Released]
 
 ## [2.8.0] - 2020-09-15
 ### Fixed
@@ -65,7 +39,6 @@ All notable changes to this project will be documented in this file.
 - sidebar 'Compare' link classes (#68745): Affects: catalog sidebar
 - bundle product price template and styling (#68745); Affects: Bundle PDP
 - make compare__product div take up 100% height of td & space items between (#68745)
-- escaping php variables in templates (#70322)
 
 ## [2.7.0] - 2020-08-20
 ### Fixed
@@ -79,22 +52,18 @@ All notable changes to this project will be documented in this file.
 ### Added
 - paypal review component (#59142)
 - curreny and language switchers in footer (#67313)
-- color property with variable for easier override of select2 styles (#67443)
-- full with variant styles to slider (#69023)
 - EE - gift registry (#65717), Affects: all gift registry pages ('/giftregistry/*'), datepicker styles
 - Component and styling for multishipping (#66917)
 - color property with variable for easier override of select2 styles (#67443)
-- adjust sliders loading time + add slider widget template (#65842)
+
 ### Changed
 - paypal review order page (#59142)
-- paypal express button, Affects: product page, cart page, checkout payment step (#69885)
 - contact-bar template to show/hide email/phone depending on config settings (#69969)
 - checkboxes to be globally aligned vertically to center (#68654)
 - zoomed in image background opacity & close button to dark (#69145)
-- basic variable with component variable for easier updates of mega menu (#69969)
-- store locator active store color (#69151)
 - styles and validation for datepicker (#67654), Affects: structure of files (datepicker customization)
 - escaping php variables in templates, Affects: amasty gdpr elements and pages (newsletter, agreements, ettings, etc.) - can limit html output there (#67311)
+- store locator active store color (#69151)
 
 ### Removed
 - duplicate variables in contact-bar (#67443)
@@ -105,12 +74,7 @@ All notable changes to this project will be documented in this file.
 
 ### Fixed
 - modal close icon overlay on text (#69152)
-- sasslint warnings (#64998)
-- configurable produt special price visibility and styling, updating product price on swatch change (#69349)
-### Changed
-- paypal review order page (#59142)
 - typo in newsletter (#67925)
-- preventing images from jumping on load (#69133)
 
 ### Changed
 - loader to sth "standard" (#68653)
@@ -124,7 +88,6 @@ All notable changes to this project will be documented in this file.
 
 ## [2.5.0] - 2020-07-15
 ### Fixed
-- gdpr agreements templates after update (#68654)
 - cart & checkout discount summary (#68737)
 ## Removed
 - 'what is paypal?' from paypal express template (#68737)
@@ -136,7 +99,6 @@ All notable changes to this project will be documented in this file.
 - zoom icon to product gallery (#68584)
 - map object from original require-config file (#68776)
 ### Changed
-- gift card template (#68589)
 - reduced spacing above Available in stores (#68585)
 - $font-family-sans-serif to $font-family-base (#68405)
 ### Fixed
@@ -156,6 +118,7 @@ All notable changes to this project will be documented in this file.
 - update variables name and styles in product view, swatches, mega menu (#62512)
 - quicksearch display, variables & components view (#65066)
 - show category description when category image isn't set (#68329)
+- gift card template (#68589)
 - update variables - brief-info--link title color, newsletter subtitle & checkbox, footer scroll top background (#67878)
 ### Fixed
 - search autocomplete product image size (#68106)
