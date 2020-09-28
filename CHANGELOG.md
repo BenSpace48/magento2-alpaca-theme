@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ### Fixed
+- issue with arrows looking wrong if gallery vertical/horizontal nav breakpoints are changed via configuration (#71113); Affects: gallery navigation
+- input and select styles in poduct gift card template (#70690); Affects: gift card PDP
+- review snippets (#69786)
+- tooltip text align on product list (#71074)
 - jumping images: in products grid on catalog, in widgets for cms banners images (#69133); Affects: cms blocks width images (homepage), catalog grid and list, products widgets, blog, sliders
 - amasty gdpr cookie modal on checkout (#71134)
 ### Added
