@@ -16,6 +16,7 @@ All notable changes to this project will be documented in this file.
   required: import scss file: `_image-ratio.scss`, additional fields in banner content type
 - paypal express button (#71512)
 - division by zero warning (#71513)
+- AuthorizeNet 'Save for later use' checkbox styling in checkout (#71077)
 ### Added
 - adjust sliders loading time + add slider widget template (#65842)
 - scroll-to.js file and added it for reviews on product page (#71248); Affects: Reviews buttons on PDP
