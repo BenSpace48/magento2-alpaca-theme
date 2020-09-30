@@ -10,6 +10,10 @@ All notable changes to this project will be documented in this file.
 - tooltip text align on product list (#71074)
 - jumping images: in products grid on catalog, in widgets for cms banners images (#69133); Affects: cms blocks width images (homepage), catalog grid and list, products widgets, blog, sliders
 - amasty gdpr cookie modal on checkout (#71134)
+- a translate function `__()` syntax error in wishlist item column cart template (#71267)
+- jumping images: in products grid & list on catalog, in widgets, in banners and cms images (#69133);
+  Affects: cms blocks width images (homepage), catalog grid and list (products images & catgeory image), products widgets, banners (CT), blog, sliders;
+  required: import scss file: `_image-ratio.scss`, additional fields in banner content type
 ### Added
 - adjust sliders loading time + add slider widget template (#65842)
 - scroll-to.js file and added it for reviews on product page (#71248); Affects: Reviews buttons on PDP
