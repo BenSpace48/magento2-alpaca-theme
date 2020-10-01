@@ -23,6 +23,7 @@ All notable changes to this project will be documented in this file.
 - scroll-to.js file and added it for reviews on product page (#71248); Affects: Reviews buttons on PDP
 - variables for footer bottom bar (#71488)
 - downloadable product PDP (#70550)
+- swatch variables (#71396), Affects: swatches on catalog
 - wishlist - config items - show "see details" with selected options (#71268); Affects: wishlist in dashboard
 ### Changed
 ### Removed
