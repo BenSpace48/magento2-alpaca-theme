@@ -22,9 +22,13 @@
     href="<?= $block->escapeUrl($categoryUrl) ?>"
     class="<?= $block->escapeHtmlAttr($classLink) ?>"
     <?= /* @noEscape */ $dataAttribute ?>
+    <?php if ($isContent): ?>
+        role="button"
+        aria-expanded="false"
+    <?php endif; ?>
 >
     <?= $block->escapeHtml($title) ?>
-    <?php if ($block->getIsParent()): ?>
+    <?php if ($isContent): ?>
         <svg
             class="
                 icon

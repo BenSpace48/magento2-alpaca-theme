@@ -19,9 +19,13 @@
 <a
     href="<?= $block->escapeUrl($block->getContent()) ?>"
     <?= /* @noEscape */ implode(' ', $attributes) ?>
+    <?php if ($isContent): ?>
+        role="button"
+        aria-expanded="false"
+    <?php endif; ?>
 >
     <?= $block->escapeHtml($title) ?>
-    <?php if ($block->getIsParent()): ?>
+    <?php if ($isContent): ?>
         <svg
             class="
                 icon
