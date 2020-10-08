@@ -29,6 +29,7 @@ All notable changes to this project will be documented in this file.
 - swatch variables (#71396), Affects: swatches on catalog
 - wishlist - config items - show "see details" with selected options (#71268); Affects: wishlist in dashboard
 - loader for picture element (#71300)
+- pager to wishlist (#71692)
 ### Changed
 ### Removed
 - unnecessary title from svgs with role presentation (#71268)
