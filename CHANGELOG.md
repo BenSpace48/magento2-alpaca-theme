@@ -21,6 +21,7 @@ All notable changes to this project will be documented in this file.
 - swatch images on product page (#71579); Affects: swatch images
 - loader scope for in swatches (#71300)
 - a11y in header, footer & homepage: fieldset & legend, inputs wrong ids, keyboard support, focus management, sidebar menu, aria roles, semantic HTML (#66038)
+- tab content in quote view - removed escaping (#72243)
 ### Added
 - adjust sliders loading time + add slider widget template (#65842)
 - scroll-to.js file and added it for reviews on product page (#71248); Affects: Reviews buttons on PDP
