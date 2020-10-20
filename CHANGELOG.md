@@ -32,6 +32,7 @@ All notable changes to this project will be documented in this file.
 - pager to wishlist (#71692)
 - base.scss variables (#71396)
 - variables fro product-view, review and tab (#71110)
+- variables for product-view, review and tab (#71110);
 ### Changed
 ### Removed
 - unnecessary title from svgs with role presentation (#71268)
