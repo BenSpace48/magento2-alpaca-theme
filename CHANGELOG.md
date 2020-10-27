@@ -3,6 +3,12 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [Released]
+## [2.10.0] - 2020-10-21
+
+### Added
+- full with variant styles to slider (#69023)
+
 ### Fixed
 - issue with arrows looking wrong if gallery vertical/horizontal nav breakpoints are changed via configuration (#71113); Affects: gallery navigation
 - input and select styles in poduct gift card template (#70690); Affects: gift card PDP
@@ -20,27 +26,25 @@ All notable changes to this project will be documented in this file.
 - gallery rendering on page load so current breakpoint configuration isn't replaced by any other configuration (fix from Magento 2.4-develop PR 29934) (#71518)
 - swatch images on product page (#71579); Affects: swatch images
 - loader scope for in swatches (#71300)
-- a11y in header, footer & homepage: fieldset & legend, inputs wrong ids, keyboard support, focus management, sidebar menu, aria roles, semantic HTML (#66038)
-- tab content in quote view - removed escaping (#72243)
 - error on company profle page (#72234)
+- tab content in quote view - removed escaping (#72243)
 ### Added
 - adjust sliders loading time + add slider widget template (#65842)
 - scroll-to.js file and added it for reviews on product page (#71248); Affects: Reviews buttons on PDP
 - variables for footer bottom bar (#71488)
 - downloadable product PDP (#70550)
-- swatch variables (#71396), Affects: swatches on catalog
 - wishlist - config items - show "see details" with selected options (#71268); Affects: wishlist in dashboard
 - loader for picture element (#71300)
 - pager to wishlist (#71692)
 - base.scss variables (#71396)
-- variables fro product-view, review and tab (#71110)
 - variables for product-view, review and tab (#71110);
+- pager to wishlist (#71692)
 ### Changed
 ### Removed
 - unnecessary title from svgs with role presentation (#71268)
 - reference to Magento\Rma\Block\Order\Button block on OS (#71741); Affects: order view, order invoice & order shipment
 
-## [Released]
+
 
 ## [2.9.0] - 2020-09-21
 ### Fixed
