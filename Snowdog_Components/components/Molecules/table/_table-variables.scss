@@ -51,6 +51,7 @@ $table__tr-border-bottom\@medium                             : 0 !default;
 // Table footer
 $table__tfoot-tr-border-top-first-child                      : $table__border !default;
 $table__tfoot-td-padding                                     : $spacer $spacer--medium !default;
+$table__tfoot-td-background                                  : $table__background !default;
 $table__tfoot-td-padding\@medium                             : $spacer--medium !default;
 $table__tfoot-td-background\@medium                          : $table__background !default;
 $table__tfoot-td-border-right\@medium                        : $table__border !default;
