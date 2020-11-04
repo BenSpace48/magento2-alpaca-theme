@@ -4,7 +4,7 @@
   "license": "MIT",
   "type": "magento2-theme",
   "require": {
-    "snowdog/frontools": "^1.8.2"
+    "snowdog/frontools": "dev-feature/magepack"
   },
   "autoload": {
     "files": [
