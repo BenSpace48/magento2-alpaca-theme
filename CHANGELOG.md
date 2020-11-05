@@ -9,6 +9,9 @@ All notable changes to this project will be documented in this file.
 - scroll-to.js so that it doesn't open "skip to content" link (#72451)
 - scroll top button focus styles (#72451)
 
+### Changed
+- aa1y features on PDP - headings order, bundle fields, price labels, buttons labels, qty update buttons, rating form (#66039); Affects: bundles options and price templates, add to cart sticky, qty update implementation, rating, requires templates update is overwritten
+
 ## [Released]
 ## [2.10.0] - 2020-10-21
 
