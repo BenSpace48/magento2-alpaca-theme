@@ -12,6 +12,9 @@ All notable changes to this project will be documented in this file.
 ### Changed
 - a11y features on PDP - headings order, bundle fields, price labels, buttons labels, qty update buttons, rating form (#66039); Affects: bundles options and price templates, add to cart sticky, qty update implementation, rating, requires templates update is overwritten
 
+### Fixed
+- selects on catalog page (#70830)
+
 ## [Released]
 ## [2.10.0] - 2020-10-21
 
