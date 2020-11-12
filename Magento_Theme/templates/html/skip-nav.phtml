@@ -20,7 +20,7 @@ $cssClass = $block->hasCssClass() ? $block->getCssClass() : '';
 <?php else: ?>
     <a
         href="<?= $block->escapeUrl($anchor) ?>"
-        class="skip-nav <?php $cssClass; ?>"
+        class="skip-nav <?= $block->escapeHtmlAttr($cssClass) ?>"
         data-mage-init='{"skipNav": {} }'
     >
         <?= $block->escapeHtml($label) ?>
