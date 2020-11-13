@@ -3,12 +3,10 @@
 $_option = $block->getOption();
 $_optionId = $_option->getId();
 $_selections = $_option->getSelections();
-$_inputId = 'bundle-option-' . $block->escapeHtmlAttr($_optionId);
-$_inputName = 'bundle_option[' . $_optionId . ']';
 ?>
-<?php $dataValidation = 'data-validate="{\'validate-one-required-by-name\':\'input[name^=&quot;bundle_option[' .
-    $block->escapeHtmlAttr($_option->getId()) . ']&quot;]:checked\'}"' ?>
+
 <div class="bundle-option <?= ($_option->getRequired()) ? ' required': '' ?>">
+
     <h2
         class="
             bundle-option__title
@@ -44,7 +42,7 @@ $_inputName = 'bundle_option[' . $_optionId . ']';
                         bundle
                         option
                     "
-                    id="<?= /* @noEscape */ $_inputId . '-' . $block->escapeHtmlAttr($_selectionId) ?>"
+                    id="bundle-option-<?= $block->escapeHtmlAttr($_optionId) ?>-<?= $block->escapeHtmlAttr($_selectionId) ?>"
                     type="checkbox"
                     <?php if ($_option->getRequired()): ?>
                         data-validate="
@@ -53,8 +51,8 @@ $_inputName = 'bundle_option[' . $_optionId . ']';
                             }
                         "
                     <?php endif; ?>
-                    name="<?= /* @noEscape */ $_inputName . '[' . $block->escapeHtmlAttr($_selectionId) ?>]"
-                    data-selector="<?= /* @noEscape */ $_inputName.'['.$block->escapeHtmlAttr($_selectionId)?>]"
+                    name="bundle_option[<?= $block->escapeHtmlAttr($_optionId) ?>][<?= $block->escapeHtmlAttr($_selection->getId()) ?>]"
+                    data-selector="bundle_option[<?= $block->escapeHtmlAttr($_optionId) ?>][<?= $block->escapeHtmlAttr($_selection->getId()) ?>]"
                     <?php if ($block->isSelected($_selection)): ?>
                         checked="checked"
                     <?php endif; ?>
@@ -62,7 +60,6 @@ $_inputName = 'bundle_option[' . $_optionId . ']';
                         disabled="disabled"
                     <?php endif; ?>
                     value="<?= $block->escapeHtmlAttr($_selectionId) ?>"
-                    data-errors-message-box="#validation-message-box"
                 >
                 <svg
                     class="
@@ -86,7 +83,7 @@ $_inputName = 'bundle_option[' . $_optionId . ']';
                 </svg>
                 <label
                     class="checkbox__label"
-                    for="<?=/* @noEscape */ $_inputId . '-' . $block->escapeHtmlAttr($_selectionId) ?>"
+                    for="bundle-option-<?= $block->escapeHtmlAttr($_optionId) ?>-<?= $block->escapeHtmlAttr($_selectionId) ?>"
                 >
                     <?= /* @noEscape */ $block->getSelectionQtyTitlePrice($_selection) ?>
                     <?= /* @noEscape */ $block->getTierPriceRenderer()->renderTierPrice($_selection) ?>
@@ -94,6 +91,5 @@ $_inputName = 'bundle_option[' . $_optionId . ']';
             </div>
         <?php endforeach; ?>
          <div id="bundle-option-<?= $block->escapeHtmlAttr($_optionId) ?>-container"></div>
-         <div id="validation-message-box"></div>
     <?php endif; ?>
 </div>
